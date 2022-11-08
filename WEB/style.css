@@ -1,0 +1,65 @@
+body
+	{ 
+		color: black;
+		background : grey;
+	}
+		
+#page_accueil  /*ceci est la description d’un identifiant (ne s'applique qu'une fois par page web)*/
+	{ 	height: 1500px;
+        background-color: #3399ff;
+	    background-image:url(images/grenouilles.png);
+		background-position:right top;
+		background-size:1000px 1400px ;
+		background-attachment:float;
+		background-repeat:no-repeat;
+		padding: 40px;
+		margin: 20px
+    
+	}
+	
+header
+{
+  position: float;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  
+}
+
+#menuaccueil
+{
+  position: float;
+  left: 20;
+  top: 150;
+  width: 200px;
+  padding: 50px;
+  background-color: yellow;
+  color: white;
+  text-align: left;
+}
+#menu
+{
+  position: float;
+  left: 20;
+  top: 150;
+  width: 200px;
+  padding: 50px;
+  background-color: yellow;
+  color: white;
+  text-align: left;
+}
+#activites
+{
+  height: 60px;
+  width: 100%;
+  margin:100px;
+  padding: 10px;
+  display: inline-block;
+  background-color: palegreen;
+  border-width: 5px;
+  box-sizing: border-box;
+  border-style: double;
+}
